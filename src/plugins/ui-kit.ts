@@ -1,5 +1,5 @@
 import type { App } from 'vue'
-import '../styles/main.css'
+import '../styles/style.css'
 import UIButton from '@/components/UIButton/UIButton.vue'
 
 

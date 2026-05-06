@@ -1,6 +1,6 @@
 {
   "name": "@ashakulia/ui-kit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/ui-kit.umd.js",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

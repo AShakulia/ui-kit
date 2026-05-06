@@ -1,6 +1,6 @@
 {
   "name": "@ashakulia/ui-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/ui-kit.umd.js",
@@ -10,7 +10,7 @@
       "import": "./dist/ui-kit.es.js",
       "require": "./dist/ui-kit.umd.js"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./style.css": "./dist/main.css"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

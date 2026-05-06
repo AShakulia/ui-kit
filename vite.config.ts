@@ -13,7 +13,8 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'UiKit',
-      fileName: (format) => `ui-kit.${format}.js`
+      fileName: (format) => `ui-kit.${format}.js`,
+      cssFileName: 'style'
     },
     rollupOptions: {
       external: ['vue'],
@@ -22,7 +23,6 @@ export default defineConfig({
           vue: 'Vue'
         }
       }
-    },
-    cssCodeSplit: true
+    }
   }
 })
